@@ -19,14 +19,14 @@ const HeaderComponent = withRouter((props) => {
 
           </Navigation>
         </Header>
-        <Drawer title="MediKare">
+        {/* <Drawer title="MediKare">
           <Navigation>
             <a href="/home">Home</a>
             <a href="/aboutus">About Us</a>
             <a href="/contactus">Contact</a>
             <a href="/creator">Creator</a>
           </Navigation>
-        </Drawer>
+        </Drawer> */}
         <Content>
           <div className="page-content" />
         </Content>

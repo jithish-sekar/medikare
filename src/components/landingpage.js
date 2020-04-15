@@ -39,14 +39,14 @@ class Landingpage extends Component {
 
     render() {
         return (
-
+     <div>
             <div style={{ width: "100%", margin: "auto" }} className="rel-inline">
                 <Grid className="landing-grid">
-                    <cell col={12}>
+                    <cell col={12} className='cell'>
                         <h1 className="landh1">MediKare</h1>
                         <p className="landp">("I only answer to two medicines, Ayurvedic and English medicines.") </p>
                         <hr />
-                        <p className="peng">Among homeopaths and other alternative medicine advocates, "allopathic medicine" now refers to "the broad category of medical practice that is sometimes called Western medicine.It is treated in the form of a pill or a liquid.</p>
+                        <p className="peng">It is treated in the form of a pill or a liquid.</p>
                         <p>"Try English"</p>
                         <button
                             className='button'
@@ -79,7 +79,7 @@ class Landingpage extends Component {
                     </div>
                 }
             </div>
-
+</div>
         )
     }
 }
