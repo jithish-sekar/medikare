@@ -87,6 +87,7 @@
   text-align: center;
   color: black;
   font-size: 40px;
+  padding-top: 15px;
 }
 
 .landp {
@@ -269,8 +270,8 @@ border-radius: 10px;
   }
 
   .hdr{
-    max-height: 78px;
-    min-height: 78px;
+    max-height: 70px;
+    min-height: 70px;
     position: relative;
   }
   .creator-brand{
