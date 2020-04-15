@@ -60,12 +60,12 @@ class Landingpage extends Component {
                             onClick={() => this.handleOnSubmit1()}
                         >Ayurvedic Medicine</button><hr />
 
-                        <div className="feel">
-                            <h1>How Do You Feel?</h1>
+                        <div className="fel">
+                            <h1 className='happytoserve'>We are happy to serve you pills and leaves.</h1><br/>
                             <button className="btn1" onClick={() => { this.openPopup("womens issues") }}>Womens Issues</button>
-                            <button className="btn1" onClick={e => { this.openPopup("Genral") }}>Genral Physician</button>
+                            <button className="btn1" onClick={e => { this.openPopup("Genral") }}>Genral Physician</button><br/><br/><br/>
                             <button className="btn1" onClick={e => { this.openPopup("Hair and Scalp") }}>Hair and Scalp</button>
-                            <button className="btn1" onClick={e => { this.openPopup("mental") }}>stress and Mental Health</button>
+                            <button className="btn1" onClick={e => { this.openPopup("mental") }}>stress and Mental Health</button><br/><br/><br/>
                             <button className="btn1" onClick={e => { this.openPopup("skin") }}>Skin Problems</button>
                             <button className="btn1" onClick={e => { this.openPopup("pregnancy") }}>pregnancy Problems</button>
                         </div>
