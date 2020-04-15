@@ -28,10 +28,7 @@
   font-size: 17px;
   border-radius: 6px;
   color:#2193b0;
-  font-family: 'Girassol', cursive;
-
-
-
+  /* font-family: 'Girassol', cursive; */
 }
 .button:focus{
   outline: none;
@@ -126,7 +123,7 @@
   width: 100%;
   margin: auto;
   height: 200px;
-  font-family: 'Girassol', cursive;
+  /* font-family: 'Girassol', cursive; */
 }
 
 .feel h1 {
@@ -138,7 +135,7 @@
 }
 
 .btn1 {
-  font-family: 'Girassol', cursive;
+  /* font-family: 'Girassol', cursive; */
   width: 200px;
   height: 80px;
   color: #02b8e0;
@@ -225,10 +222,10 @@ border-radius: 10px;
   .gender{
     color:white;
     font-size: 25;
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
   }
   .genderbtn {
-    font-family: 'Girassol', cursive;
+    /* font-family: 'Girassol', cursive; */
     width: 150px;
     height: 50px;
     color: #02b8e0;
@@ -249,7 +246,7 @@ border-radius: 10px;
   }
 
   .talkDoc{
-    font-family: 'Girassol', cursive;
+    /* font-family: 'Girassol', cursive; */
     width: 190px;
     height: 50px;
     color: #02b8e0;
