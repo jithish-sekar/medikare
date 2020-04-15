@@ -440,14 +440,9 @@ border-radius: 10px;
     }
     .fel{
       background-color: black;
-      border-radius: 10px;
-      width: 700px;
-      margin: auto;
-      height: 50px;
+      border-radius: 13px;
+      height: fit-content;
       color: white;
 
     }
-    .happytoserve{
-      font-family: 'Roboto Condensed', sans-serif;
-      
-    }
+    
