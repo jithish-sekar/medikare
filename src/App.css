@@ -390,11 +390,11 @@ border-radius: 10px;
      margin-right: 30px;
      font-family: 'Amiri', serif;
     }
-     /* .btngeneralphysician.active{
-       
-     } */
      .btngeneralphysician:focus{
       outline: none;
+    }
+    .btngeneralphysician:hover{
+      background-color: #2193b0;
     }
     .h1general{
       font-size: 40px;
@@ -417,19 +417,14 @@ border-radius: 10px;
       margin-left: 590px ;
       border-radius: 9px;
     }
+   
+    
     .h1issues{
       text-align: center;
       /* font-family: 'Libre Baskerville', serif; */
       font-family: 'Roboto Condensed', sans-serif;
       font-weight:600;
     }
-    .Mklogo{
-      position: fixed;
-      display: inline-block;
-      height: 35px;
-
-    }
-  
     .list-unstyled{
       display: inline;
       margin-right: 40px;
