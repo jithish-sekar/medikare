@@ -18,7 +18,7 @@ class Creator extends Component {
                             <h1>Full Stack Web Developer</h1>
                             <hr />
                             <p>
-                                Html/Css | Java script | React | Node.js | MongoDB
+                                Html/Css | Java script | React | Node.js | MongoDB|
                             </p>
                             <div className="social-links">
 
