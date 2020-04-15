@@ -44,7 +44,7 @@ class Landingpage extends Component {
                 <Grid className="landing-grid">
                     <cell col={12} className='cell'>
                         <h1 className="landh1">MediKare</h1>
-                        <p className="landp">("I only answer to two medicines, Ayurvedic and English medicines.") </p>
+                        <p className="landp">("Pills & leaves!") </p>
                         <hr />
                         <p className="peng">It is treated in the form of a pill or a liquid.</p>
                         <p>"Try English"</p>
