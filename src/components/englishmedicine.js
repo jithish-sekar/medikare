@@ -2,22 +2,22 @@ import React, { Component } from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import SkinProblems from "./eng_skinproblems";
 
-class Englishmedicine extends Component{
+class Englishmedicine extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            gender:false
+            gender: false
         }
     }
     GenderMale() {
         this.setState({
-            gender:' Gentleman!'
+            gender: ' Gentleman!'
         })
     }
 
     GenderFemale = () => {
         this.setState({
-           gender:' Ladies!'
+            gender: ' Ladies!'
         })
     }
 
@@ -48,61 +48,62 @@ class Englishmedicine extends Component{
     PregnancyProblems = () => {
         this.props.history.push('englishmedicine/pregnancyproblems')
     }
-    render() {    
+    render() {
         return (
-        <div className='englishMedi'>
-                <h1 className='h1EngMedi'> English Medicine</h1> 
+            <div className='englishMedi'>
+                <h1 className='h1EngMedi'> English Medicine</h1>
+                <center>
                 <div>
-                    <center>
-                <h3 className='engMedih2'>Hey{this.state.gender}</h3>
-                <h5 className='gender'>Gender?</h5>
-                <button className='genderbtn' onClick={()=> this.GenderMale()}>Male</button>
-                <button className='genderbtn' onClick={()=>this.GenderFemale()}>Female</button>
-                </center>
-                </div>   
+
+                    <h3 className='engMedih2'>Hey{this.state.gender}</h3>
+                    <h5 className='gender'>Gender?</h5>
+                    <button className='genderbtn' onClick={() => this.GenderMale()}>Male</button>
+                    <button className='genderbtn' onClick={() => this.GenderFemale()}>Female</button>
+
+                </div>
                 <div>
                     <button
-                     onClick={()=>this.FormValidation()}   
-                     className='talkDoc'>
-                     Talk To  Doctor
-                    <i class="fa fa-arrow-circle-right "></i>
-                    </button><hr/>
-                </div>
-            <div className='landing-grid'>
-                <div className="feel">
-                    <h1>How You Feel Today?</h1>
+                        onClick={() => this.FormValidation()}
+                        className='talkDoc'>
+                        Talk To  Doctor
+                            <i class="fa fa-arrow-circle-right "></i>
+                    </button><hr />
+                </div></center>
+                <div className='landing-grid'>
+                    <div className="feel">
+                        <h1>How You Feel Today?</h1>
                         <button className="btn1"
-                         onClick={()=>this.womensIssues()}
+                            onClick={() => this.womensIssues()}
                         >Womens Issues</button>
                         <button className="btn1"
-                         onClick={()=>this.generalPhysician()} 
+                            onClick={() => this.generalPhysician()}
                         >Genral Physician</button>
                         <button className="btn1"
-                        onClick={()=>this.hairscalp()}
+                            onClick={() => this.hairscalp()}
                         >Hair and Scalp</button>
                         <button className="btn1"
-                        onClick={()=>this.StressMentalHealth()}
+                            onClick={() => this.StressMentalHealth()}
                         >stress and Mental Health</button>
                         <button className="btn1"
-                        onClick={() => this.SkinProblems()}
+                            onClick={() => this.SkinProblems()}
                         >Skin Problems</button>
                         <button className="btn1"
-                        onClick={()=>this.PregnancyProblems()}
+                            onClick={() => this.PregnancyProblems()}
                         >pregnancy Problems</button>
-                </div><br/>
-             </div>      
-           
-        </div>       
+                    </div><br />
+                </div>
+
+            </div>
         )
     }
-   
+
 
 }
 
 
 
 
-                
 
-       
+
+
 export default Englishmedicine;
