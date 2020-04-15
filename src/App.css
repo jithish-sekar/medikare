@@ -414,7 +414,7 @@ border-radius: 10px;
       background-color: #2193b0;
       height: fit-content;
       width:300px;
-      margin-left: 590px ;
+      /* margin-left: 590px ; */
       border-radius: 9px;
     }
    
@@ -443,5 +443,9 @@ border-radius: 10px;
       border-radius: 13px;        
       color: white;
        width:auto;
+      }
+      .happy{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 43px;
       }
     
