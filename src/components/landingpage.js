@@ -61,10 +61,11 @@ class Landingpage extends Component {
                         >Ayurvedic Medicine</button><hr />
 
                         <div className="fel">
-                            <h1 className='happytoserve'>We are happy to serve you pills and leaves.</h1><br/>
+                            <h1 className='happy'>We are happy to serve you pills and leaves.</h1><br/>
                             <button className="btn1" >Womens Issues</button>
                             <button className="btn1" >Genral Physician</button><br/><br/><br/>
                             <button className="btn1" >Hair and Scalp</button>
+                            <button className="btn1" >stress and Mental Health</button><br/><br/><br/>
                             <button className="btn1" >Skin Problems</button>
                             <button className="btn1" >pregnancy Problems</button>
                         </div>

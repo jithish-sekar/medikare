@@ -440,9 +440,8 @@ border-radius: 10px;
     }
     .fel{
       background-color: black;
-      border-radius: 13px;
-      height: fit-content;
+      border-radius: 13px;        
       color: white;
-
-    }
+       width:auto;
+      }
     
