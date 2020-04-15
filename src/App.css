@@ -145,7 +145,7 @@
   margin-left: 0px;
   align-content: center;
   border: 1px solid #bedfdf;
- 
+  margin-bottom: 20px;
 }
 .btn1:focus{
   outline: none;
