@@ -255,10 +255,11 @@ border-radius: 10px;
     color: #02b8e0;
     font-size: 14px;
     border-radius: 9px;
-    margin-left:580px;
+    margin-left:650px;
     align-content: center;
     border: 1px solid white;      
     margin-top: 30px;
+    align-content: center;
 
   }
   .talkDoc:focus{
@@ -416,8 +417,8 @@ border-radius: 10px;
       background-color: #2193b0;
       height: fit-content;
       width:300px;
-      margin-left: 520px ;
-      border-radius: 8px;
+      margin-left: 590px ;
+      border-radius: 9px;
     }
     .h1issues{
       text-align: center;

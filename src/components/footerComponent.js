@@ -49,7 +49,7 @@ const FooterPage = () => {
                         </MDBRow>
 
 
-                    </MDBContainer>
+                     </MDBContainer>
                     <div className='footer-social-link'>
 
                         <a href="https://www.facebook.com/profile.php?id=100012662224779" rel="noopener noreferrer" target="_blank" >
@@ -62,7 +62,7 @@ const FooterPage = () => {
                         </a>
                     </div>
                     <div className="footer-copyright text-center py-3">
-                        <MDBContainer fluid>
+                        <MDBContainer fluid> */}
                             &copy; {new Date().getFullYear()} Copyright: <a href=""> medikare.org.in </a>
                         </MDBContainer>
                     </div>
