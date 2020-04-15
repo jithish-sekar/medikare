@@ -322,6 +322,10 @@ border-radius: 10px;
   .strategies{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+  .strategies .p-30px{
+    padding:30px;
   }
   .strategies li{
     list-style: none;

@@ -8,15 +8,15 @@ class About extends Component {
 
                 <h1 className='landh1'>MediKare </h1>
                 <p className='abtp'>
-                                    ("I only answer to two medicines, Ayurvedic and English medicines.")
-                             </p><hr/>
+                    ("I only answer to two medicines, Ayurvedic and English medicines.")
+                             </p><hr />
                 <h1 className='h1about'>"We collaborate with brands and agencies to create memorable experiences."
                  </h1>
                 <h2 className='h2about'>
                     Think of us as more of a creative partner than a resource. This means we have shared perspective on how we can work together to achieve your goals. Basically, your new BFF.
                  </h2><hr />
                 <div className='strategies'>
-                    <div>
+                    <div className="p-30px">
                         <span className='span1'>
                             Discover
                         </span>
@@ -26,7 +26,7 @@ class About extends Component {
                             <li className='li1'>Ideation</li>
                         </span>
                     </div>
-                    <div>
+                    <div className="p-30px">
                         <span className='span1'>
                             Design
                         </span>
@@ -34,10 +34,10 @@ class About extends Component {
                         <li className='li1'>Branding</li>
                         <li className='li1'>Visual Design</li>
                     </div>
-                    <div>
+                    <div className="p-30px">
                         <span className='span1'>
                             Develop
-                    </span>
+                        </span>
 
                         <span>
                             <li className='li1'>Research</li>
@@ -45,42 +45,42 @@ class About extends Component {
                             <li className='li1'>Ideation</li>
                         </span>
                     </div>
-                </div><br/>
+                </div><br />
                 <div style={{ width: "100%", margin: "auto" }}>
-                <Grid className="landing-grid">
+                    <Grid className="landing-grid">
                         <cell col={12}>
-                            <br/><hr/>
-                        <div className="creator">
-                            <h1>Full Stack Web Developer</h1>
-                            <hr />
-                            <p>
-                                Html/Css | Java script | React | Node.js | MongoDB
+                            <br /><hr />
+                            <div className="creator">
+                                <h1>Full Stack Web Developer</h1>
+                                <hr />
+                                <p>
+                                    Html/Css | Java script | React | Node.js | MongoDB
                             </p>
-                            <div className="social-links">
+                                <div className="social-links">
 
-                                <a href="https://www.facebook.com/profile.php?id=100012662224779" rel="noopener noreferrer" target="_blank" >
-                                    <i class="fab fa-facebook-square"></i>
-                                </a>
+                                    <a href="https://www.facebook.com/profile.php?id=100012662224779" rel="noopener noreferrer" target="_blank" >
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
 
 
-                                <a href="https://www.linkedin.com/in/jithish-sekar-a46a95157?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh8jOfTQUSlWqq9PhJ2Y2Wg%3D%3D" rel="noopener noreferrer" target="_blank" >
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
-                            <p>JITHISH SEKAR</p>
-                            <p className='creator-brand'>"When someone calls me a blogger, I think, 'That's one of the things I used to do.' I'm a creative director for my shoe brand; I'm the editor-in-chief of 'The MediKare,' which is a website and not just a blog anymore."</p>
+                                    <a href="https://www.linkedin.com/in/jithish-sekar-a46a95157?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh8jOfTQUSlWqq9PhJ2Y2Wg%3D%3D" rel="noopener noreferrer" target="_blank" >
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                                <p>JITHISH SEKAR</p>
+                                <p className='creator-brand'>"When someone calls me a blogger, I think, 'That's one of the things I used to do.' I'm a creative director for my shoe brand; I'm the editor-in-chief of 'The MediKare,' which is a website and not just a blog anymore."</p>
 
-                        </div><hr/>
-                        <center>
-                            <img src="_DSC0090-01.jpeg"
-                                alt="avatar"
-                                className="img" />
-                        </center>
-                        <hr/>      <br/> 
-                        
-                    </cell>
-                </Grid>
-            </div>
+                            </div><hr />
+                            <center>
+                                <img src="_DSC0090-01.jpeg"
+                                    alt="avatar"
+                                    className="img" />
+                            </center>
+                            <hr />      <br />
+
+                        </cell>
+                    </Grid>
+                </div>
 
             </div>
 
