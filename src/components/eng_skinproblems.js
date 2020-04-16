@@ -56,47 +56,47 @@ class SkinProblems extends Component {
                 
                 <span>
                     {
-                        this.state.showpimples ?
+                        this.state.showpimples ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Retino-A </h1>
                                 <h1 className='generaltab'> Doxycycline RX </h1>
                                 <h1 className='generaltab'> Clindamycin </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showsunburn ?
+                    {this.state.showsunburn ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>ibuprofen</h1>
                             <h1 className='generaltab'>Naproxin</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showvitiligo ?
+                    {this.state.showvitiligo ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'> Betamethasone</h1>
                             <h1 className='generaltab'> Hydrocortisone </h1>
                             <h1 className='generaltab'>Vitamin D</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showshingles ?
+                    {this.state.showshingles ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Acyclovir </h1>
                             <h1 className='generaltab'>Valacyclovir </h1>
                             <h1 className='generaltab'>Famvir </h1>
 
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.pimples()}> Pimples </button>

@@ -46,38 +46,38 @@ class PregnancyProblems extends Component {
                
                 <span>
                     {
-                        this.state.showmenstrual ?
+                        this.state.showmenstrual ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Viburnum Opulus </h1>
                                 <h1 className='generaltab'> Corydalis ambigua </h1>
                                 <h1 className='generaltab'> Ginger and Pepper Tea </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showurinary ?
+                    {this.state.showurinary ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Fennel Seeds With Water</h1>
                             <h1 className='generaltab'>Jamun Seeds Powder</h1>
                             <h1 className='generaltab'>Avagaha Sveda</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showbloodpressure ?
+                    {this.state.showbloodpressure ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Flax Seed </h1>
                             <h1 className='generaltab'>Cinnamon </h1>
                             <h1 className='generaltab'>Cardamon</h1>
                             <h1 className='generaltab'>Garlic</h1>
-                            </div>
+                            </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.menstrual()}>  Menstrual Cramps </button>

@@ -45,37 +45,37 @@ class WomensIssues extends Component {
                 <h1 className='h1general'>Find Your English Medicines</h1>
                 
                 <span>
-                    {this.state.showGynecological ?
+                    {this.state.showGynecological ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Misoprostol RX </h1>
                                 <h1 className='generaltab'> Cytotec </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showAutoimmune ?
+                    {this.state.showAutoimmune ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Xeljanz</h1>
                             <h1 className='generaltab'>Cosentyx</h1>
                             <h1 className='generaltab'>Olumiant (baricitinib)</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showBreastcancer ?
+                    {this.state.showBreastcancer ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Danazol</h1>
                             <h1 className='generaltab'> Evening Primrose Oil </h1>
                             <h1 className='generaltab'> Vitamin E</h1>
 
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.Gynecological()}>  Gynecological </button>

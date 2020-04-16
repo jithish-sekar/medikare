@@ -43,39 +43,39 @@ class StressMentalHealth extends Component {
                 
                 <span>
                     {
-                        this.state.showdepression ?
+                        this.state.showdepression ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Citalopram(celexa) </h1>
                                 <h1 className='generaltab'> Viibryd(vilazodone hydrochloride) </h1>
                                 <h1 className='generaltab'> Sertraline </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showinsomnia ?
+                    {this.state.showinsomnia ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Zolpidem</h1>
                             <h1 className='generaltab'>Zaleplon</h1>
                             <h1 className='generaltab'>Ramelteon</h1>
                             <h1 className='generaltab'>Eszopiclone</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showasthma ?
+                    {this.state.showasthma ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Leukotriene Receptor Antagonists (LTRAs) </h1>
                             <h1 className='generaltab'>Monteluksat(singulair)  </h1>
                             <h1 className='generaltab'>Zileuton</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
 
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.depression()}>  Depression </button>

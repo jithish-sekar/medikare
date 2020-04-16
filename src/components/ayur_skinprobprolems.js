@@ -56,49 +56,49 @@ class SkinProblems extends Component {
                 
                 <span>
                     {
-                        this.state.showpimples ?
+                        this.state.showpimples ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Neem Leaves </h1>
                                 <h1 className='generaltab'> Aloe Vera </h1>
                                 <h1 className='generaltab'> Tea Tree Oil </h1>
                                 <h1 className='generaltab'> Jojoba Oil </h1>
 
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showsunburn ?
+                    {this.state.showsunburn ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Black Tea</h1>
                             <h1 className='generaltab'>Watermelon</h1>
                             <h1 className='generaltab'>Aloe Vera Gel</h1>
 
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showvitiligo ?
+                    {this.state.showvitiligo ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Turmeric With Mustard Oil</h1>
                             <h1 className='generaltab'> Baluchi Oil</h1>
                             <h1 className='generaltab'>Vitamin D</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showshingles ?
+                    {this.state.showshingles ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Lemon Balm </h1>
                             <h1 className='generaltab'>Baking Soda </h1>    
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>  
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.pimples()}> Pimples </button>

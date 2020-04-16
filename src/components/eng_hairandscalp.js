@@ -62,48 +62,48 @@ class HairScalp extends Component {
                 
                 <span>
                     {
-                        this.state.showsores ?
+                        this.state.showsores ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h5 className='generaltab'>(*Shampoo that contains*)</h5>
                                 <h1 className='generaltab'> Pythrione Zinc </h1>
                                 <h1 className='generaltab'> Salicyclic Acid </h1>
                                 <h1 className='generaltab'> Selenium Sulfide </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showhairloss ?
+                    {this.state.showhairloss ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Viviscal</h1>
                             <h1 className='generaltab'>Finasteride(propecia)</h1>
                             <h1 className='generaltab'>Rogaine Spray</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showcradlecap ?
+                    {this.state.showcradlecap ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Olive Oil </h1>
                             <h1 className='generaltab'> Baby Shampoo </h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showdandruff ?
+                    {this.state.showdandruff ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Nizoral A-D </h1>
                             <h1 className='generaltab'> Nioxin Booster</h1>
                             <h1 className='generaltab'> TVAM Henna</h1>
 
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.dandruff()}>  Dandruff </button>

@@ -46,38 +46,38 @@ class PregnancyProblems extends Component {
                 
                 <span>
                     {
-                        this.state.showmenstrual ?
+                        this.state.showmenstrual ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Midol RX/OTC </h1>
                                 <h1 className='generaltab'> Motrin IB RX/OTC </h1>
                                 <h1 className='generaltab'> Naproxen </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showurinary ?
+                    {this.state.showurinary ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Ditropan</h1>
                             <h1 className='generaltab'>Tolterodine</h1>
                             <h1 className='generaltab'>Trospium</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showbloodpressure ?
+                    {this.state.showbloodpressure ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Hyzaar </h1>
                             <h1 className='generaltab'> Lotrel </h1>
                             <h1 className='generaltab'> Tribenzor</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.menstrual()}>  Menstrual Cramps </button>

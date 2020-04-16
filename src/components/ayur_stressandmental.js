@@ -43,39 +43,39 @@ class StressMentalHealth extends Component {
                 
                 <span>
                     {
-                        this.state.showdepression ?
+                        this.state.showdepression ? <center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Green Tea </h1>
                                 <h1 className='generaltab'> Shanpushpi </h1>
                                 <h1 className='generaltab'> Brahmi And Jatamansi </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showinsomnia ?
+                    {this.state.showinsomnia ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Brahmi Herb</h1>
                             <h1 className='generaltab'>Bacopa Herb</h1>
                             <h1 className='generaltab'>Nostril Breathing</h1>
                             <h1 className='generaltab'></h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showasthma ?
+                    {this.state.showasthma ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Virechana </h1>
                             <h1 className='generaltab'>Vamana </h1>
                             <h1 className='generaltab'>Rasayana Therapy</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
 
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.depression()}>  Depression </button>

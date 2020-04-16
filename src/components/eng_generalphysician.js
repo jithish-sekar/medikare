@@ -59,47 +59,47 @@ class GeneralPhysician extends Component {
                 
                 <span>
                     {
-                        this.state.showfever ?
+                        this.state.showfever ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Paracetomol </h1>
                                 <h1 className='generaltab'> Ibuprofen </h1>
                                 <h1 className='generaltab'> Acetaminophen </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showcold ?
+                    {this.state.showcold ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Benadryl</h1>
                             <h1 className='generaltab'>Diphenhydramine</h1>
                             <h1 className='generaltab'>Chloropheniramine</h1>
                             <h1 className='generaltab'>Cetirizine </h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showcaugh ?
+                    {this.state.showcaugh ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'> AMDROL-T  (syrup)</h1>
                             <h1 className='generaltab'> DARCET    (syrup) </h1>
                             <h1 className='generaltab'>Guaifenesin</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showthroatpain ?
+                    {this.state.showthroatpain ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Acetaminophen (Tylenol) </h1>
                             <h1 className='generaltab'> ibuprofen (Advil or Motrin)</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.fever()}>  Fever </button>

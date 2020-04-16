@@ -60,49 +60,52 @@ class GeneralPhysician extends Component {
                 <span>
                     {
                         this.state.showfever ?
+                            <center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Sudharshan Leaves </h1>
                                 <h1 className='generaltab'> Ginger </h1>
                                 <h1 className='generaltab'> Neem </h1>
                                 <h1 className='generaltab'> Cloves</h1>
 
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
                     {this.state.showcold ?
-                        <div className='bgcolorgeneral'><hr />
+                      <center>  <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Tulsi</h1>
                             <h1 className='generaltab'>Turmeric Powder</h1>
                             <h1 className='generaltab'>Black Pepper</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
                     {this.state.showcaugh ?
-                        <div className='bgcolorgeneral'><hr />
+                        <center>                       <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Tulsi Tea </h1>
                             <h1 className='generaltab'>Garlic </h1>
                             <h1 className='generaltab'>Pepper Mint</h1>
-                        </div>
+                        </div></center>
+ 
                         : null
                     }
                 </span>
                 <span>
                     {this.state.showthroatpain ?
+                        <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Garloic with Salt Water </h1>
                             <h1 className='generaltab'>Turmeric Milk</h1>
                             <h1 className='generaltab'>Honey</h1>
                         
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.fever()}>  Fever </button>

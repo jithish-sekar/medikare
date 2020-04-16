@@ -62,47 +62,47 @@ class HairScalp extends Component {
                 
                 <span>
                     {
-                        this.state.showsores ?
+                        this.state.showsores ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'>Coconut Oil With Alovera</h1>
                                 <h1 className='generaltab'>Baking Soda </h1>
                                 <h1 className='generaltab'>Garlic </h1>
                                 <h1 className='generaltab'>Vitamin D </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showhairloss ?
+                    {this.state.showhairloss ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Fenvgreek Seeds</h1>
                             <h1 className='generaltab'>Triphala</h1>
                             <h1 className='generaltab'>Therapeutic Oil</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showcradlecap ?
+                    {this.state.showcradlecap ?<center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Oil massage </h1>
                             <h1 className='generaltab'> Vaseline  </h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showdandruff ?
-                        <div className='bgcolorgeneral'><hr />
+                    {this.state.showdandruff ?<center>                        <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'> Camphor With Coconut Oil </h1>
                             <h1 className='generaltab'>Coconut With Lemon</h1>
                             <h1 className='generaltab'>White Egg And Lime Juice </h1>       
-                        </div>
+                        </div></center>
+
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.dandruff()}>  Dandruff </button>

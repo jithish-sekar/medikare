@@ -46,33 +46,33 @@ class WomensIssues extends Component {
                 
 
                 <span>
-                    {this.state.showGynecological ?
+                    {this.state.showGynecological ?<center>
                             <div className='bgcolorgeneral'><hr />
                                 <h1 className='generaltab'> Nasya </h1>
                                 <h1 className='generaltab'> Gyneza </h1>
-                            </div>
+                            </div></center>
                             : null
                     }
                 </span>
                 <span>
-                    {this.state.showAutoimmune ?
+                    {this.state.showAutoimmune ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>(*Sanas or Pranayamas to be practised*)</h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    {this.state.showBreastcancer ?
+                    {this.state.showBreastcancer ? <center>
                         <div className='bgcolorgeneral'><hr />
                             <h1 className='generaltab'>Amla Saar</h1>
                             <h1 className='generaltab'> Turmeric(Curclear) </h1>
-                        </div>
+                        </div></center>
                         : null
                     }
                 </span>
                 <span>
-                    <center>
+                    <center><h5 className='h5issue'>*Press any of a issue to view medicine*</h5>
                         <button
                             className='btngeneralphysician'
                             onClick={() => this.Gynecological()}>  Gynecological </button>
