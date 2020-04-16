@@ -71,7 +71,7 @@ class Englishmedicine extends Component {
                 </div></center>
                 <div className='landing-grid'>
                     <div className="feel">
-                        <h1>How You Feel Today?</h1>
+                        <h1>How do you feel today?</h1>
                         <button className="btn1"
                             onClick={() => this.womensIssues()}
                         >Womens Issues</button>

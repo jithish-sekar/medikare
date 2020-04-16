@@ -125,6 +125,13 @@
   margin: auto;
   height: 200px;
   /* font-family: 'Girassol', cursive; */
+    display: flex;
+    flex-direction: unset;
+    float: left;
+    flex-wrap: wrap;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
 }
 
 .feel h1 {
@@ -133,6 +140,7 @@
   font-weight: bold;
   align-items: center;
   font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
 }
 
 .btn1 {
