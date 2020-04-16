@@ -297,6 +297,8 @@ class FormsPage extends Component {
     const { text } = this.state;
     return (
       <div className='formvalid'>
+       <center> <h2>Talk to the doctor</h2> </center>
+        <h5 className='h5issue'>*fill your details*</h5>
         <form
           className="needs-validation"
           onSubmit={this.submitHandler}
