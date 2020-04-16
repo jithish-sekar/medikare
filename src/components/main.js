@@ -26,6 +26,7 @@ const Main = () => (
         <Route exact path="/aboutus" component={Aboutus} />
         <Route exact path="/contactus" component={Contactus} />
         <Route exact path="/creator" component={Creator} />
+        <Route exact path="/talktodoctor" component={FormValidation}/>
         {/*     <Route path="/home" component={Home} /> */}
         <Route exact path="/englishmedicine" component={Englishmedicine} />
         <Route exact path="/ayurvedicmedicine" component={Ayurvedicmedicine} />

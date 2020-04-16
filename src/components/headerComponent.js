@@ -28,7 +28,7 @@ const HeaderComponent = withRouter((props) => {
 
             <h1
               className='hdrcomponenth1'
-              onClick={() => props.history.push('/talktodoctor')}
+              onClick={() => redirectTo('/talktodoctor')}
 
             >Talk To Doctor</h1>
 

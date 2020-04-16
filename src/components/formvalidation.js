@@ -409,13 +409,15 @@ class FormsPage extends Component {
               </div>
             </MDBInput>
           </MDBRow> */}
+          <center>
           <button className='talkDoc'
             type="submit"
           >
-            Submit Form
-          </button>
+              Submit Form
+          </button></center>
+          <hr />
         </form>
-
+<br/><br/><br/>
         {this.state.showPopup === true &&
           <div>
             <Popup type={this.state.popupType} />
