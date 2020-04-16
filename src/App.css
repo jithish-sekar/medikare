@@ -38,7 +38,7 @@
 
 .creator {
   background-color: black;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   width: 100%;
   margin: auto;
   border-radius: 10px;
@@ -385,7 +385,7 @@ border-radius: 10px;
     font-family: 'Baloo Paaji 2', cursive;
     font-size: 15px;
     }
-    .btngeneralphysician{
+  .btngeneralphysician{
      cursor: pointer;
      height: 100px;
      width: 200px;
@@ -395,7 +395,7 @@ border-radius: 10px;
      margin-right: 30px;
      font-family: 'Amiri', serif;
     }
-     .btngeneralphysician:focus{
+  .btngeneralphysician:focus{
       outline: none;
     }
     .btngeneralphysician:hover{
@@ -447,10 +447,23 @@ border-radius: 10px;
       background-color: black;
       border-radius: 13px;        
       color: white;
-       width:auto;
+      width:auto;
       }
-      .happy{
+    .happy{
         font-family: 'Josefin Sans', sans-serif;
         font-size: 43px;
       }
-    
+    .ftrhome{
+      font-size: 15px;
+      margin-right: 10px;
+      color: white;
+      opacity: 0.9;
+      cursor: pointer;
+    }
+        
+    .lnkfb i{
+      font-size: 2em;
+    }
+    .lnkfb{
+
+    }

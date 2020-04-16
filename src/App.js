@@ -14,7 +14,7 @@ const App = withRouter((props) => {
     <div>
       <HeaderComponent />
       <Main />
-      {/* <FooterPage/> */}
+      <FooterPage/>
     </div>
 
   );

@@ -8,9 +8,6 @@ const HeaderComponent = withRouter((props) => {
     <div className="hdr">
       <Layout>
         <Header className="navbar" title="MediKare" onClick={() => props.history.push('/')}>
-          {/* <img src='jithu5.png'
-            className='Mklogo' 
-            alt='avatar'/> */}
           <Navigation>
             <a href="/home">Home</a>
             <a href="/aboutus">About Us</a>
@@ -27,9 +24,9 @@ const HeaderComponent = withRouter((props) => {
             <a href="/creator">Creator</a>
           </Navigation>
         </Drawer> */}
-        <Content>
+        {/* <Content>
           <div className="page-content" />
-        </Content>
+        </Content> */}
       </Layout>
     
       

@@ -89,7 +89,7 @@ class Englishmedicine extends Component {
                         >Skin Problems</button>
                         <button className="btn1"
                             onClick={() => this.PregnancyProblems()}
-                        >pregnancy Problems</button>
+                        >Pregnancy Problems</button>
                     </div><br />
                 </div>
 

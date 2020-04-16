@@ -8,7 +8,7 @@ class About extends Component {
 
                 <h1 className='landh1'>MediKare </h1>
                 <p className='abtp'>
-                    ("I only answer to two medicines, Ayurvedic and English medicines.")
+                    ("Pills & leaves!")
                              </p><hr />
                 <h1 className='h1about'>"We collaborate with brands and agencies to create memorable experiences."
                  </h1>

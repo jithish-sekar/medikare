@@ -67,7 +67,7 @@ class Landingpage extends Component {
                             <button className="btn1" >Hair and Scalp</button>
                             <button className="btn1" >stress and Mental Health</button>
                             <button className="btn1" >Skin Problems</button>
-                            <button className="btn1" >pregnancy Problems</button>
+                            <button className="btn1" >Pregnancy Problems</button>
                         </div>
                         <br />
                     </cell>

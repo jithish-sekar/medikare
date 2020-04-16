@@ -1,6 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import { withRouter } from 'react-router-dom';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 import LandingPage from './landingpage';
 import Aboutus from './aboutus';
@@ -33,9 +32,7 @@ const Main = () => (
         <Route exact path="/englishmedicine/generalphysician" component={GeneralPhysician} />
         <Route exact path="/englishmedicine/womensissues" component={WomensIssues} />
         <Route exact path="/formvalidation" component={FormValidation} />
-        <Route exact path="/home" component={LandingPage} />
         <Route exact path="/ayurvedicmedicine/generalphysician" component={GeneralPhysicianAyur} />
-        <Route exact path="/app" component={LandingPage} />
         <Route exact path="/englishmedicine/hairandscalp" component={HairScalp} />
         <Route exact path="/englishmedicine/stressandmental" component={StressMentalHealth} />
         <Route exact path="/englishmedicine/skinproblems" component={SkinProblems} />
@@ -44,9 +41,14 @@ const Main = () => (
         <Route exact path="/ayurvedicmedicine/pregnancyproblem" component={pregnancyproblemsayur} />
         <Route exact path="/ayurvedicmedicine/skinproblem" component={skinproblems} />
         <Route exact path="/ayurvedicmedicine/stressandmentalhealth" component={StressMentalHealthayur} />
-        <Route exact path="/ayurvedicmedicine/womensissues" component={womensissuesayur}/>        
-        <Route exact path="/" component={LandingPage} />
-        
+        <Route exact path="/ayurvedicmedicine/womensissues" component={womensissuesayur} />
+        <Route exact path="/footerhome" component={LandingPage} />
+        <Route exact path="/aboutus" component={Aboutus} />
+        <Route exact path="/footercreator" component={Creator} />
+        <Route exact path="/footerdoctor" component={FormValidation} />
+        <Route exact path="/home" component={LandingPage} />
+        <Redirect from="" to="/home" />
+        <Redirect from="/" redirect="/home" />
     </Switch>
 
 )

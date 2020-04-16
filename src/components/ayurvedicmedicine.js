@@ -88,7 +88,7 @@ class Ayurvedicmedicine extends Component {
                         >Skin Problems</button>
                         <button className="btn1"
                             onClick={() => this.pregnancyproblemayur()}
-                        >pregnancy Problems</button>
+                        >Pregnancy Problems</button>
                     </div><br />
                 </div>
             </div>
