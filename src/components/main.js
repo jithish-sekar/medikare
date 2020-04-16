@@ -43,12 +43,11 @@ const Main = () => (
         <Route exact path="/ayurvedicmedicine/stressandmentalhealth" component={StressMentalHealthayur} />
         <Route exact path="/ayurvedicmedicine/womensissues" component={womensissuesayur} />
         <Route exact path="/footerhome" component={LandingPage} />
-        <Route exact path="/aboutus" component={Aboutus} />
         <Route exact path="/footercreator" component={Creator} />
         <Route exact path="/footerdoctor" component={FormValidation} />
         <Route exact path="/home" component={LandingPage} />
-        <Redirect from="" to="/home" />
-        <Redirect from="/" redirect="/home" />
+        <Route exact path="" component={LandingPage} />
+        {/* <Redirect from="/" redirect="/home" /> */}
     </Switch>
 
 )

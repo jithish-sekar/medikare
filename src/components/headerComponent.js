@@ -4,15 +4,33 @@ import { withRouter } from 'react-router-dom';
 
 const HeaderComponent = withRouter((props) => {
 
+  const redirectTo = (value) => {
+    props.history.push(value);
+  }
+
   return (
     <div className="hdr">
       <Layout>
-        <Header className="navbar" title="MediKare" onClick={() => props.history.push('/')}>
+        <Header className="navbar" title="MediKare">
           <Navigation>
-            <h1>Home</h1>
-            <a href="/aboutus">About Us</a>
-            <a href="/creator">Creator</a>
-            <a href="/contactus">Talk To Doctor</a>
+            <h1
+              className='hdrcomponenth1'
+              onClick={() => redirectTo('/homeheader')}>Home</h1>
+            <h1
+              className='hdrcomponenth1'
+              onClick={() => redirectTo('/aboutus')}
+            >About Us</h1>
+            <h1
+              className='hdrcomponenth1'
+              onClick={() => redirectTo('/creator')}
+            >Creator
+             </h1>
+
+            <h1
+              className='hdrcomponenth1'
+              onClick={() => props.history.push('/talktodoctor')}
+
+            >Talk To Doctor</h1>
 
           </Navigation>
         </Header>
@@ -28,9 +46,9 @@ const HeaderComponent = withRouter((props) => {
           <div className="page-content" />
         </Content> */}
       </Layout>
-    
-      
-      
+
+
+
 
     </div>
   )

@@ -472,4 +472,6 @@ border-radius: 10px;
     .lnkfb i{
       font-size: 2em;
     }
-   
+   .hdrcomponenth1{
+     cursor: pointer;
+   }
