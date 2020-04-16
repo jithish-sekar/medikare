@@ -475,3 +475,8 @@ border-radius: 10px;
    .hdrcomponenth1{
      cursor: pointer;
    }
+
+   .mdl-layout__header-row{
+     padding: 0 16px 0 0 !important;
+     height: auto !important;
+   }
