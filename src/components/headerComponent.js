@@ -9,7 +9,7 @@ const HeaderComponent = withRouter((props) => {
       <Layout>
         <Header className="navbar" title="MediKare" onClick={() => props.history.push('/')}>
           <Navigation>
-            <a href="/home">Home</a>
+            <h1>Home</h1>
             <a href="/aboutus">About Us</a>
             <a href="/creator">Creator</a>
             <a href="/contactus">Talk To Doctor</a>
