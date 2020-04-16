@@ -178,7 +178,7 @@ class Popup extends Component {
       <div className="popup">
         <div>
           <h4 className='h4'>{this.getHead()}</h4>
-          <h1>Sucessfully submitted</h1>
+          <h1>Sucess!!</h1>
           {this.props.type}
         </div>
       </div>
