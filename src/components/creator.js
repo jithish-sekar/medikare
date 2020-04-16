@@ -11,14 +11,15 @@ class Creator extends Component {
                         <center>
                             <img src="_DSC0090-01.jpeg"
                                 alt="avatar"
-                                className="img" />
+                                className="img"
+                            />
                         </center>
                         <hr/>       
                         <div className="creator">
                             <h1>Full Stack Web Developer</h1>
                             <hr />
                             <p>
-                                Html/Css | Java script | React | Node.js | MongoDB|
+                                Html/Css | Java script | React | Node.js | MongoDB
                             </p>
                             <div className="social-links">
 

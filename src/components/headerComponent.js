@@ -25,12 +25,12 @@ const HeaderComponent = withRouter((props) => {
               onClick={() => redirectTo('/creator')}
             >Creator
              </h1>
-
+{/* 
             <h1
               className='hdrcomponenth1'
               onClick={() => redirectTo('/talktodoctor')}
 
-            >TTD</h1>
+            >TTD</h1> */}
 
           </Navigation>
         </Header>
