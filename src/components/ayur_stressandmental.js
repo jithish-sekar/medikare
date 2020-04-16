@@ -40,19 +40,7 @@ class StressMentalHealth extends Component {
                 <p className='penglishMedicine'>There's no medical definition of stress, and health care professionals often disagree over whether stress is the cause of problems or the result of them. This can make it difficult for you to work out what causes your feelings of stress, or how to deal with them. But whatever your personal definition of stress is, it's likely that you can learn to manage your stress better.</p>
                 <br />
                 <h1 className='h1general'>Find Your Ayurvedic Medicines</h1>
-                <span>
-                    <center>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.depression()}>  Depression </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.insomnia()}>  Insomnia </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.asthma()}>  Asthma </button>
-                    </center>
-                </span>
+                
                 <span>
                     {
                         this.state.showdepression ?
@@ -84,6 +72,20 @@ class StressMentalHealth extends Component {
                         </div>
                         : null
                     }
+                </span>
+
+                <span>
+                    <center>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.depression()}>  Depression </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.insomnia()}>  Insomnia </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.asthma()}>  Asthma </button>
+                    </center>
                 </span>
                 <br /><br /><br /><br />
 

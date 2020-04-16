@@ -56,22 +56,7 @@ class GeneralPhysician extends Component {
 
                 <br />
                 <h1 className='h1general'>Find Your English Medicines</h1>
-                <span>
-                    <center>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.fever()}>  Fever </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.cold()}>  Cold </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.caugh()}>  Cough </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.throatpain()}>  Throat Pain </button>
-                    </center>
-                </span>
+                
                 <span>
                     {
                         this.state.showfever ?
@@ -113,7 +98,22 @@ class GeneralPhysician extends Component {
                         : null
                     }
                 </span>
-
+                <span>
+                    <center>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.fever()}>  Fever </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.cold()}>  Cold </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.caugh()}>  Cough </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.throatpain()}>  Throat Pain </button>
+                    </center>
+                </span>
                 <br /><br /><br /><br />
 
             </div>

@@ -53,22 +53,7 @@ class SkinProblems extends Component {
 
                 <br />
                 <h1 className='h1general'>Find Your Ayurvedic Medicines</h1>
-                <span>  
-                    <center>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.pimples()}> Pimples </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.sunburn()}>  Sun Burn </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.vitiligo()}>  Vitiligo </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.shingles()}>  Shingles</button>
-                    </center>
-                </span>
+                
                 <span>
                     {
                         this.state.showpimples ?
@@ -112,7 +97,22 @@ class SkinProblems extends Component {
                         : null
                     }
                 </span>
-
+                <span>  
+                    <center>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.pimples()}> Pimples </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.sunburn()}>  Sun Burn </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.vitiligo()}>  Vitiligo </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.shingles()}>  Shingles</button>
+                    </center>
+                </span>
                 <br /><br /><br /><br />
 
 

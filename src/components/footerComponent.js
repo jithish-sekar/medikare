@@ -20,7 +20,7 @@ const FooterPage = withRouter((props) => {
                                 <a href='https://www.facebook.com/profile.php?id=100012662224779" rel="noopener noreferrer" target="_blank"' > <i class="fab fa-facebook-square"></i></a>
                                 <a href='https://www.linkedin.com/in/jithish-sekar-a46a95157?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh8jOfTQUSlWqq9PhJ2Y2Wg%3D%3D" rel="noopener noreferrer" target="_blank" ' > <i class="fab fa-linkedin"></i></a>
                                 <a href='https://twitter.com/JithuSekar'><i class="fab fa-twitter"></i></a>
-                                <a href=''><i class="fab fa-github"></i></a>
+                                <a href='https://github.com/jithish-sekar'><i class="fab fa-github"></i></a>
                                 </div>
                             </center>
 
@@ -55,7 +55,7 @@ const FooterPage = withRouter((props) => {
                                 </ul>
                             </MDBCol>
                         </MDBRow>      
-                        <center>        
+                        <center>
                             <span className='ftrhome'
                             onClick={() => props.history.push('/footerhome')}
                             >Home</span> <span className='ftrhome'

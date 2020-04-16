@@ -43,19 +43,7 @@ class PregnancyProblems extends Component {
             
                 <br />
                 <h1 className='h1general'>Find Your  English Medicines</h1>
-                <span>
-                    <center>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.menstrual()}>  Menstrual Cramps </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.urinary()}>  Urinary Stress </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.bloodpressure()}> High Blood Pressure  </button>
-                    </center>
-                </span>
+                
                 <span>
                     {
                         this.state.showmenstrual ?
@@ -88,7 +76,19 @@ class PregnancyProblems extends Component {
                     }
                 </span>
                
-
+                <span>
+                    <center>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.menstrual()}>  Menstrual Cramps </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.urinary()}>  Urinary Stress </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.bloodpressure()}> High Blood Pressure  </button>
+                    </center>
+                </span>
                 <br /><br /><br /><br />
             
             </div>

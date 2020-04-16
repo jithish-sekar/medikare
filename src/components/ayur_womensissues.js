@@ -43,20 +43,7 @@ class WomensIssues extends Component {
                 <p className='penglishMedicine'>Urinary tract conditions present more often in females, and sexually transmitted diseases can cause more harm to women.Among the conditions that present most frequently in women, the following eight illnesses pose considerable health risks.</p>
                 <br />
                 <h1 className='h1general'>Find Your Ayurvedic Medicines</h1>
-                <span>
-                    <center>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.Gynecological()}>  Gynecological </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.Autoimmune()}>  Autoimmune Disease </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.Breastcancer()}>  Breast Cancer </button>
-
-                    </center>
-                </span>
+                
 
                 <span>
                     {this.state.showGynecological ?
@@ -84,7 +71,20 @@ class WomensIssues extends Component {
                         : null
                     }
                 </span>
+                <span>
+                    <center>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.Gynecological()}>  Gynecological </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.Autoimmune()}>  Autoimmune Disease </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.Breastcancer()}>  Breast Cancer </button>
 
+                    </center>
+                </span>
                 <br /><br /><br /><br />
             </div>
 

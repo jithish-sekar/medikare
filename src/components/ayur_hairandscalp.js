@@ -59,22 +59,7 @@ class HairScalp extends Component {
 
                 <br />
                 <h1 className='h1general'>Find Your Ayurvedic Medicines</h1>
-                <span>
-                    <center>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.dandruff()}>  Dandruff </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.hairloss()}>  Hair Loss </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.cradlecap()}>  Cradle Cap </button>
-                        <button
-                            className='btngeneralphysician'
-                            onClick={() => this.sores()}> sores  </button>
-                    </center>
-                </span>
+                
                 <span>
                     {
                         this.state.showsores ?
@@ -115,6 +100,22 @@ class HairScalp extends Component {
                         </div>
                         : null
                     }
+                </span>
+                <span>
+                    <center>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.dandruff()}>  Dandruff </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.hairloss()}>  Hair Loss </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.cradlecap()}>  Cradle Cap </button>
+                        <button
+                            className='btngeneralphysician'
+                            onClick={() => this.sores()}> sores  </button>
+                    </center>
                 </span>
 
                 <br /><br /><br /><br />
