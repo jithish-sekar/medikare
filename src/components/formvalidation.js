@@ -417,7 +417,7 @@ class FormsPage extends Component {
           </button></center>
           <hr />
         </form>
-<br/><br/><br/>
+<br/><br/><br/><br/><br/>
         {this.state.showPopup === true &&
           <div>
             <Popup type={this.state.popupType} />
