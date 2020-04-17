@@ -75,7 +75,7 @@ class HairScalp extends Component {
                 <span>
                     {this.state.showhairloss ? <center>
                         <div className='bgcolorgeneral'><hr />
-                            <h1 className='generaltab'>Fenvgreek Seeds</h1>
+                            <h1 className='generaltab'>Fenugreek Seeds</h1>
                             <h1 className='generaltab'>Triphala</h1>
                             <h1 className='generaltab'>Therapeutic Oil</h1>
                         </div></center>
