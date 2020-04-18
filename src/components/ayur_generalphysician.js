@@ -96,7 +96,7 @@ class GeneralPhysician extends Component {
                     {this.state.showthroatpain ?
                         <center>
                         <div className='bgcolorgeneral'><hr />
-                            <h1 className='generaltab'>Garloic with Salt Water </h1>
+                            <h1 className='generaltab'>Gargle with Salt Water </h1>
                             <h1 className='generaltab'>Turmeric Milk</h1>
                             <h1 className='generaltab'>Honey</h1>
                         
