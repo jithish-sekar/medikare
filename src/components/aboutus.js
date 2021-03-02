@@ -81,7 +81,7 @@ class About extends Component {
               </div>
               <hr />
               <center>
-                <img src="_DSC0090-01.jpeg" alt="avatar" className="img" />
+                {/* <img src="_DSC0090-01.jpeg" alt="avatar" className="img" /> */}
               </center>
               <hr /> <br />
             </cell>

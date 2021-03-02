@@ -61,9 +61,9 @@ const FooterPage = withRouter((props) => {
                             >Home</span> <span className='ftrhome'
                             onClick={()=>props.history.push('/aboutus')}
                             >About </span>
-                            <span className='ftrhome'
+                            {/* <span className='ftrhome'
                             onClick={()=>props.history.push('/footercreator')}
-                            >Creator</span>
+                            >Creator</span> */}
                             <span className='ftrhome'
                             onClick={()=>props.history.push('/footerdoctor')}
                             >Talk To Doctor</span>
