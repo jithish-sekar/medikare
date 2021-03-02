@@ -20,11 +20,11 @@ const HeaderComponent = withRouter((props) => {
               className='hdrcomponenth1'
               onClick={() => redirectTo('/aboutus')}
             >About Us</h1>
-            <h1
+            {/* <h1
               className='hdrcomponenth1'
               onClick={() => redirectTo('/creator')}
             >Creator
-             </h1>
+             </h1> */}
 {/* 
             <h1
               className='hdrcomponenth1'
