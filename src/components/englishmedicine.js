@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import SkinProblems from "./eng_skinproblems";
+// import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+// import SkinProblems from "./eng_skinproblems";
 
 class Englishmedicine extends Component {
     constructor(props) {

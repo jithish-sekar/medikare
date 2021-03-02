@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 class Ayurvedicmedicine extends Component {
     constructor(props) {

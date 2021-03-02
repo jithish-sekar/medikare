@@ -24,36 +24,7 @@ const FooterPage = withRouter((props) => {
                                 </div>
                             </center>
 
-                            <MDBCol md="6">
-                                {/* <h5 className='foot-h5'>Resources</h5> */}
-                                <ul className='ft1head'>
-
-                                    <div className='ft1'>
-                                        <li className="list-unstyled">
-                                            <a href="#!"
-                                                className='foot-name'
-                                            ></a>
-                                        </li>
-                                        <li className="list-unstyled">
-                                            <a href="#!"
-                                                className='foot-name'
-                                            >  </a>
-                                        </li>
-                                    </div>
-                                    <div className='ft2'>
-                                        <li className="list-unstyled">
-                                            <a href="#!"
-                                                className='foot-name'
-                                            > </a>
-                                        </li>
-                                        <li className="list-unstyled">
-                                            <a href="#!"
-                                                className='foot-name'
-                                            ></a>
-                                        </li>
-                                    </div>
-                                </ul>
-                            </MDBCol>
+                         
                         </MDBRow>      
                         <center>
                             <span className='ftrhome'

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, cell } from 'react-mdl';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { Grid } from 'react-mdl';
 
 class Creator extends Component {
     render() {

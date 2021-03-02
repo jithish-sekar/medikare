@@ -58,7 +58,6 @@ class StressMentalHealth extends Component {
                             <h1 className='generaltab'>Brahmi Herb</h1>
                             <h1 className='generaltab'>Bacopa Herb</h1>
                             <h1 className='generaltab'>Nostril Breathing</h1>
-                            <h1 className='generaltab'></h1>
                         </div></center>
                         : null
                     }
